@@ -16,7 +16,7 @@ Näiden lisäksi on myös kustomoitu vaikeustaso, jossa pelikentän koon ja miin
 
 **Ohjelman käyttäjän toiminnot**: 
 - asetusten määrittäminen (pelikentän koon valitseminen)
-- uuden pelin aloittaminen (sekä asetusvalikosta, että 
+- uuden pelin aloittaminen (sekä asetusvalikosta, että pelikentän yläpuolella sijaitsevasta napista)
 - pelikentän zoomaus (ominaisuus joka lisätään jos aikaa jää)
 - ruudun klikkaaminen hiiren vasemmalla painikkeella (mikäli pelaajan mielestä ruudussa ei ole miinaa)
 - miinan sijainnin merkitseminen hiiren oikealla painikkeella (mikäli pelaajan mielestä ruudussa on miina)
