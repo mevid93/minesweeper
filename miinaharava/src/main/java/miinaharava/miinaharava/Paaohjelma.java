@@ -1,18 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package miinaharava.miinaharava;
 
 /**
  *
- * @author Marski
+ * @author Martin Vidjeskog
  */
 public class Paaohjelma {
     
+    
+    /**
+     * Metodi, jolla ohjelma käynnistetään. Luodaan käyttöliittymä olio
+     * ja kutsutaan sen run-metodia.
+     * @param args : Ei ohjelman kannalta mitään merktitystä.
+     */
     public static void main(String[]args){
-        System.out.println("Kaikki tehty.");
+        
+        Kayttoliittyma ikkuna = new Kayttoliittyma();
+        ikkuna.run();
+        
     }
     
 }
