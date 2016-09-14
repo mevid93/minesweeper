@@ -1,12 +1,13 @@
 
-package miinaharava.miinaharava;
+package miinaharava.kayttoliittyma;
 
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
-import java.util.List;
 import java.util.ArrayList;
 import javax.swing.JPanel;
+import miinaharava.sovelluslogiikka.RuutuNappienKuuntelija;
 
 /**
  *
@@ -16,7 +17,6 @@ public class Pelikentta extends JPanel{
     
     private int leveys;
     private int korkeus;
-    private List<Ruutu> ruutuLista;
     
     /**
      * 
@@ -26,7 +26,6 @@ public class Pelikentta extends JPanel{
     public Pelikentta(int leveys, int korkeus){
         this.leveys = leveys;
         this.korkeus = korkeus;
-        this.ruutuLista = new ArrayList<>();
         if(this.leveys < 9){    // varmistetaan että leveys on vähintään 9
             this.leveys = 9;
         }
@@ -38,9 +37,10 @@ public class Pelikentta extends JPanel{
     
     
     /**
-     * Metodi, joka luo Ruutu-oliot ja asettelee ne pelikenttään.
+     * Metodi, joka luo Ruutunappi-oliot ja asettelee ne pelikenttään.
+     * Samalla Ruutunappi-oliot lisätään listaan muita toimintoja varten.
      */
-    public void luoRuudut(){
+    private void luoRuudut(){
         this.setLayout(new GridBagLayout()); //asetetaan layout
         GridBagConstraints c = new GridBagConstraints();
         c.fill = GridBagConstraints.BOTH;
@@ -48,12 +48,33 @@ public class Pelikentta extends JPanel{
             c.gridy = i;
             for(int j = 0; j < this.leveys; j++){
                 c.gridx = j;
-                Ruutu ruutu = new Ruutu(i, j);
+                Ruutunappi ruutu = new Ruutunappi(i, j);
+                        ruutu.setPreferredSize(new Dimension(40, 40));
+                        ruutu.addMouseListener(new RuutuNappienKuuntelija(ruutu));
                 this.add(ruutu, c);
             }
         }
         this.setBackground(Color.GRAY);
     }
+
+    
+    /**
+     * Metodi palauttaa pelikentän leveyden (ruutuina).
+     * @return  
+     */
+    public int getKentanLeveys() {
+        return leveys;
+    }
+
+    
+    /**
+     * Metodi palauttaa pelikentän korkeuden (ruutuina).
+     * @return 
+     */
+    public int getKentanKorkeus() {
+        return korkeus;
+    }
+
     
     
     

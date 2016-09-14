@@ -1,5 +1,7 @@
 
-package miinaharava.miinaharava;
+package miinaharava.sovelluslogiikka;
+
+import miinaharava.kayttoliittyma.Kayttoliittyma;
 
 /**
  *
