@@ -29,7 +29,7 @@ public class Kayttoliittyma implements Runnable {
     @Override
     public void run() {
         frame = new JFrame("Miinaharava");
-        frame.setPreferredSize(new Dimension((9+1)*40, (9+1)*40 + 100));
+        frame.setPreferredSize(new Dimension((9 + 1) * 40, (9 + 1) * 40 + 100));
         frame.setResizable(false);
 
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -58,15 +58,16 @@ public class Kayttoliittyma implements Runnable {
         frame.setVisible(true);
     }
 
-    
     /**
      * Metodi luo käyttöliittymän komponentit ja asettelee ne paikoilleen.
-     * @param container : container-olio, johon käyttöliittymän komponentit asetellaan 
+     *
+     * @param container : container-olio, johon käyttöliittymän komponentit
+     * asetellaan
      */
     private void luoKomponentit(Container container) {
         container.setLayout(new BorderLayout());
 
-        Pelikentta kentta = new Pelikentta(9,9);
+        Pelikentta kentta = new Pelikentta(9, 9);
         container.add(kentta);
 
         JPanel paneeli2 = new JPanel(new GridLayout(1, 3));

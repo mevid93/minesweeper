@@ -1,4 +1,3 @@
-
 package miinaharava.sovelluslogiikka;
 
 import miinaharava.kayttoliittyma.Ruutunappi;
@@ -11,23 +10,23 @@ import javax.swing.SwingUtilities;
  *
  * @author Martin Vidjeskog
  */
-public class RuutuNappienKuuntelija implements MouseListener{
+public class RuutuNappienKuuntelija implements MouseListener {
 
     private Ruutunappi ruutu;
-    
-    public RuutuNappienKuuntelija(Ruutunappi ruutu){
+
+    public RuutuNappienKuuntelija(Ruutunappi ruutu) {
         this.ruutu = ruutu;
     }
-    
+
     @Override
     public void mouseClicked(MouseEvent e) {
-        if(e.getSource() == this.ruutu){
-            if(SwingUtilities.isLeftMouseButton(e)){
+        if (e.getSource() == this.ruutu) {
+            if (SwingUtilities.isLeftMouseButton(e)) {
                 this.ruutu.setBackground(Color.red);
             }
         }
-        if(e.getSource() == this.ruutu){
-            if(SwingUtilities.isRightMouseButton(e)){
+        if (e.getSource() == this.ruutu) {
+            if (SwingUtilities.isRightMouseButton(e)) {
                 this.ruutu.setBackground(Color.CYAN);
             }
         }
@@ -52,7 +51,5 @@ public class RuutuNappienKuuntelija implements MouseListener{
     public void mouseExited(MouseEvent e) {
         //Ei tarvita
     }
-    
-    
-    
+
 }

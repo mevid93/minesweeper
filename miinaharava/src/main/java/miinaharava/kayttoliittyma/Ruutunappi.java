@@ -1,8 +1,6 @@
 package miinaharava.kayttoliittyma;
 
-import java.awt.Dimension;
 import javax.swing.JButton;
-import miinaharava.sovelluslogiikka.RuutuNappienKuuntelija;
 
 /**
  *

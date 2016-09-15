@@ -1,6 +1,5 @@
 package miinaharava.kayttoliittyma;
 
-
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
@@ -9,7 +8,7 @@ import static org.junit.Assert.assertEquals;
  * @author Martin Vidjeskog
  */
 public class RuutunappiTest {
-    
+
     public RuutunappiTest() {
     }
 
@@ -19,7 +18,7 @@ public class RuutunappiTest {
         assertEquals(10, ruutu.getxKoordinaatti());
         assertEquals(10, ruutu.getyKoordinaatti());
     }
-    
+
     @Test
     public void konstruktoriToimiiPoikkeavillaKoordinaateilla() {
         Ruutunappi ruutu = new Ruutunappi(-1, -1);

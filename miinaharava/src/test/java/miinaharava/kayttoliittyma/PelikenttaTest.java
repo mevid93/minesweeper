@@ -1,6 +1,5 @@
 package miinaharava.kayttoliittyma;
 
-
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
@@ -9,7 +8,7 @@ import org.junit.Test;
  * @author Martin Vidjeskog
  */
 public class PelikenttaTest {
-    
+
     public PelikenttaTest() {
     }
 
@@ -19,7 +18,7 @@ public class PelikenttaTest {
         assertEquals(10, kentta.getKentanLeveys());
         assertEquals(10, kentta.getKentanKorkeus());
     }
-    
+
     @Test
     public void konstruktoriToimiiPoikkeavillaAlkuarvoilla() {
         Pelikentta kentta = new Pelikentta(-1, 8);

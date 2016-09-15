@@ -14,7 +14,7 @@ public class Ruutu {
      * Konstruktori, joka luo Ruutu-olion ja asettaa kaikki boolean arvot alussa
      * epätosiksi.
      */
-    public void Ruutu() {
+    public Ruutu() {
         this.onAvattu = false;
         this.onLiputettu = false;
         this.onMiina = false;
@@ -33,7 +33,7 @@ public class Ruutu {
      * Metodi, jolla ruutu merkitään avatuksi
      */
     public void avaa() {
-        if(this.onLiputettu){
+        if (this.onLiputettu) {
             return;
         }
         this.onAvattu = true;
@@ -53,10 +53,10 @@ public class Ruutu {
      * riippuen siitä onko boolean arvo true vai false.
      */
     public void liputa() {
-        if(this.onAvattu){
+        if (this.onAvattu) {
             return;
         }
-        if(this.onLiputettu){
+        if (this.onLiputettu) {
             this.onLiputettu = false;
             return;
         }
@@ -73,7 +73,7 @@ public class Ruutu {
     }
 
     /**
-     * Metodi, jolla ruutuun voidaan merkitä miina. Metodia kutsutaan vain 
+     * Metodi, jolla ruutuun voidaan merkitä miina. Metodia kutsutaan vain
      * ruudukon luonnin yhteydessä.
      */
     public void miinoita() {

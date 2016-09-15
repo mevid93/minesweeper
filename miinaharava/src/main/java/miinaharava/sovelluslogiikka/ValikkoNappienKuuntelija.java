@@ -1,4 +1,3 @@
-
 package miinaharava.sovelluslogiikka;
 
 import java.awt.event.ActionEvent;
@@ -9,14 +8,14 @@ import javax.swing.JMenuItem;
  *
  * @author Martin Vidjeskog
  */
-public class ValikkoNappienKuuntelija implements ActionListener{
+public class ValikkoNappienKuuntelija implements ActionListener {
 
     private JMenuItem valinta;
-    
-    public ValikkoNappienKuuntelija(JMenuItem valinta){
+
+    public ValikkoNappienKuuntelija(JMenuItem valinta) {
         this.valinta = valinta;
     }
-    
+
     @Override
     public void actionPerformed(ActionEvent e) {
         switch (valinta.getText()) {
@@ -32,7 +31,5 @@ public class ValikkoNappienKuuntelija implements ActionListener{
                 break;
         }
     }
- 
-    
-    
+
 }

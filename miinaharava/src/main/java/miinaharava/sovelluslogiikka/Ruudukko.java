@@ -19,7 +19,7 @@ public class Ruudukko {
      * @param korkeus
      * @param miinoja
      */
-    public void Ruudukko(int leveys, int korkeus, int miinoja) {
+    public Ruudukko(int leveys, int korkeus, int miinoja) {
         this.leveys = leveys;
         this.korkeus = korkeus;
         this.ruudukko = new Ruutu[korkeus][leveys];
