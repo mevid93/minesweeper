@@ -20,3 +20,10 @@ Näiden lisäksi on myös kustomoitu vaikeustaso, jossa pelikentän koon ja miin
 - pelikentän zoomaus (ominaisuus joka lisätään jos aikaa jää)
 - ruudun klikkaaminen hiiren vasemmalla painikkeella (mikäli pelaajan mielestä ruudussa ei ole miinaa)
 - miinan sijainnin merkitseminen hiiren oikealla painikkeella (mikäli pelaajan mielestä ruudussa on miina)
+<br/>
+<br/>
+<br/>
+![Määrittelyvaiheen luokkakaavio](/dokumentaatio/kuvat/määrittelyLuokkakaavio.png)
+<br/>
+<br/>
+Yllä esitetty kuva vastaa ohjelman määrittelyvaiheen luokkakaaviota. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Käyttöliittymäluokka on tietysti olennainen osa peliä, mutta se on tästä huolimatta jätetty pois. Lisäksi kuvasta on jätetty pois luokat Paaohjelma ja ValikkoNappienKuuntelija.
