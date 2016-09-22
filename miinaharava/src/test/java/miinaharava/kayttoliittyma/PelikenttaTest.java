@@ -1,5 +1,6 @@
 package miinaharava.kayttoliittyma;
 
+import miinaharava.sovelluslogiikka.Ruudukko;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
@@ -13,16 +14,11 @@ public class PelikenttaTest {
     }
 
     @Test
-    public void konstruktoriToimiiNormaaleillaAlkuarvoilla() {
-        Pelikentta kentta = new Pelikentta(10, 10);
+    public void konstruktoriToimii() {
+        Ruudukko ruudukko = new Ruudukko(10, 10, 5);
+        Pelikentta kentta = new Pelikentta(ruudukko);
         assertEquals(10, kentta.getKentanLeveys());
         assertEquals(10, kentta.getKentanKorkeus());
     }
 
-    @Test
-    public void konstruktoriToimiiPoikkeavillaAlkuarvoilla() {
-        Pelikentta kentta = new Pelikentta(-1, 8);
-        assertEquals(9, kentta.getKentanLeveys());
-        assertEquals(9, kentta.getKentanKorkeus());
-    }
 }

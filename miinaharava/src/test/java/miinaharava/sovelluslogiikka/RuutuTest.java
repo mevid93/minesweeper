@@ -36,28 +36,28 @@ public class RuutuTest {
 
     @Test
     public void eiVoidaAvataRuutuaJossaLippu() {
-        ruutu.liputa();
+        ruutu.liputuksenTilanVaihto();
         ruutu.avaa();
         assertFalse("Ruutu oli avattu.", ruutu.onkoAvattu());
     }
 
     @Test
     public void liputusToimii() {
-        ruutu.liputa();
+        ruutu.liputuksenTilanVaihto();
         assertTrue("Ruutu ei ollut liputettu.", ruutu.onkoLiputettu());
     }
 
     @Test
     public void lipunPoistoToimii() {
-        ruutu.liputa();
-        ruutu.liputa();
+        ruutu.liputuksenTilanVaihto();
+        ruutu.liputuksenTilanVaihto();
         assertFalse("Ruutu oli liputettu.", ruutu.onkoLiputettu());
     }
 
     @Test
     public void eiVoiLiputtaaAvattuaRuutua() {
         ruutu.avaa();
-        ruutu.liputa();
+        ruutu.liputuksenTilanVaihto();
         assertFalse("Ruutu oli liputettu.", ruutu.onkoLiputettu());
     }
 

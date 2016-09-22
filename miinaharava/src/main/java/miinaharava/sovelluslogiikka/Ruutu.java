@@ -52,7 +52,7 @@ public class Ruutu {
      * Metodi, jolla ruutu voidaan merkitä liputetutksi tai liputtomaksi
      * riippuen siitä onko boolean arvo true vai false.
      */
-    public void liputa() {
+    public void liputuksenTilanVaihto() {
         if (this.onAvattu) {
             return;
         }

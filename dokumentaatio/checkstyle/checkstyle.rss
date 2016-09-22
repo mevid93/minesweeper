@@ -46,20 +46,6 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.ValikkoNappienKuuntelija.java">miinaharava/sovelluslogiikka/ValikkoNappienKuuntelija.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.Paaohjelma.java">miinaharava/sovelluslogiikka/Paaohjelma.java</a>
                 </td>
                 <td>
@@ -74,7 +60,35 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.RuutunappienKuuntelija.java">miinaharava/sovelluslogiikka/RuutunappienKuuntelija.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.Ruutu.java">miinaharava/sovelluslogiikka/Ruutu.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.ValikkonappienKuuntelija.java">miinaharava/sovelluslogiikka/ValikkonappienKuuntelija.java</a>
                 </td>
                 <td>
                   0
@@ -103,20 +117,6 @@ under the License.
                           <tr>
                 <td>
                   <a href="${project.url}/checkstyle.html#miinaharava.kayttoliittyma.Kayttoliittyma.java">miinaharava/kayttoliittyma/Kayttoliittyma.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.RuutuNappienKuuntelija.java">miinaharava/sovelluslogiikka/RuutuNappienKuuntelija.java</a>
                 </td>
                 <td>
                   0

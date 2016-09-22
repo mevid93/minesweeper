@@ -1,6 +1,6 @@
 package miinaharava.kayttoliittyma;
 
-import miinaharava.sovelluslogiikka.ValikkoNappienKuuntelija;
+import miinaharava.sovelluslogiikka.ValikkonappienKuuntelija;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Container;
@@ -14,6 +14,7 @@ import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JSeparator;
 import javax.swing.WindowConstants;
+import miinaharava.sovelluslogiikka.Ruudukko;
 
 /**
  *
@@ -37,15 +38,15 @@ public class Kayttoliittyma implements Runnable {
         JMenuBar menuBar = new JMenuBar();
         JMenu peliMenu = new JMenu("Peli");
         JMenuItem asetukset = new JMenuItem("Asetukset");
-        asetukset.addActionListener(new ValikkoNappienKuuntelija(asetukset));
+        asetukset.addActionListener(new ValikkonappienKuuntelija(asetukset));
         peliMenu.add(asetukset);
         peliMenu.add(new JSeparator());
         JMenuItem lopeta = new JMenuItem("Lopeta");
-        lopeta.addActionListener(new ValikkoNappienKuuntelija(lopeta));
+        lopeta.addActionListener(new ValikkonappienKuuntelija(lopeta));
         peliMenu.add(lopeta);
         JMenu ohjeMenu = new JMenu("Ohje");
         JMenuItem saannot = new JMenuItem("Säännöt");
-        saannot.addActionListener(new ValikkoNappienKuuntelija(saannot));
+        saannot.addActionListener(new ValikkonappienKuuntelija(saannot));
         ohjeMenu.add(saannot);
         menuBar.add(peliMenu);
         menuBar.add(ohjeMenu);
@@ -67,7 +68,8 @@ public class Kayttoliittyma implements Runnable {
     private void luoKomponentit(Container container) {
         container.setLayout(new BorderLayout());
 
-        Pelikentta kentta = new Pelikentta(9, 9);
+        Ruudukko ruudukko = new Ruudukko(9, 9, 10);
+        Pelikentta kentta = new Pelikentta(ruudukko);
         container.add(kentta);
 
         JPanel paneeli2 = new JPanel(new GridLayout(1, 3));

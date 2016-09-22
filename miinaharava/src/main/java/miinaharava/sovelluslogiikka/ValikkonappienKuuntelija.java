@@ -8,11 +8,11 @@ import javax.swing.JMenuItem;
  *
  * @author Martin Vidjeskog
  */
-public class ValikkoNappienKuuntelija implements ActionListener {
+public class ValikkonappienKuuntelija implements ActionListener {
 
     private JMenuItem valinta;
 
-    public ValikkoNappienKuuntelija(JMenuItem valinta) {
+    public ValikkonappienKuuntelija(JMenuItem valinta) {
         this.valinta = valinta;
     }
 

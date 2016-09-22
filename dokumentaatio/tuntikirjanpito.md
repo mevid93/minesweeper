@@ -6,3 +6,4 @@ Päivä | Tunnit | Kuvaus
 14.09.2016 | 1.5h | Ohjelmointia ja testien kirjoittelua.
 15.09.2016 | 0.5h | Pit raportin luonti ja checkstyle
 16.09.2016 | 0.5h | Määrittelyvaiheen luokkakaavio
+21.09.2016 | 1.5h | sovelluslogiikan ohjelmointia (mm. RuutunapinKuuntelija) sekä käyttöliittymäluokkien muokkausta.

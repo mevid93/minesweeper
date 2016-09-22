@@ -4,8 +4,10 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
+import java.awt.Insets;
 import javax.swing.JPanel;
-import miinaharava.sovelluslogiikka.RuutuNappienKuuntelija;
+import miinaharava.sovelluslogiikka.Ruudukko;
+import miinaharava.sovelluslogiikka.RuutunappienKuuntelija;
 
 /**
  *
@@ -15,29 +17,26 @@ public class Pelikentta extends JPanel {
 
     private int leveys;
     private int korkeus;
+    private Ruudukko ruudukko;
+    private Ruutunappi[][] ruutunapit;
 
     /**
-     *
-     * @param leveys : Pelikentän ruutujen määrä leveyssuunnassa
-     * @param korkeus : Pelikentän ruutujen määrä pystysuunnassa
+     * Konstruktori.
+     * @param ruudukko : Ruudukko olio  
      */
-    public Pelikentta(int leveys, int korkeus) {
-        this.leveys = leveys;
-        this.korkeus = korkeus;
-        if (this.leveys < 9) {    // varmistetaan että leveys on vähintään 9
-            this.leveys = 9;
-        }
-        if (this.korkeus < 9) {   // varmistetaan että korkeus on vähintään 9
-            this.korkeus = 9;
-        }
-        this.luoRuudut();
+    public Pelikentta(Ruudukko ruudukko) {
+        this.leveys = ruudukko.getLeveys();
+        this.korkeus = ruudukko.getKorkeus();
+        this.ruudukko = ruudukko;
+        this.ruutunapit = new Ruutunappi[this.korkeus][this.leveys];
+        this.luoRuutunapit();
     }
 
     /**
      * Metodi, joka luo Ruutunappi-oliot ja asettelee ne pelikenttään. Samalla
      * Ruutunappi-oliot lisätään listaan muita toimintoja varten.
      */
-    private void luoRuudut() {
+    private void luoRuutunapit() {
         this.setLayout(new GridBagLayout()); //asetetaan layout
         GridBagConstraints c = new GridBagConstraints();
         c.fill = GridBagConstraints.BOTH;
@@ -45,10 +44,12 @@ public class Pelikentta extends JPanel {
             c.gridy = i;
             for (int j = 0; j < this.leveys; j++) {
                 c.gridx = j;
-                Ruutunappi ruutu = new Ruutunappi(i, j);
-                ruutu.setPreferredSize(new Dimension(40, 40));
-                ruutu.addMouseListener(new RuutuNappienKuuntelija(ruutu));
-                this.add(ruutu, c);
+                Ruutunappi ruutunappi = new Ruutunappi(i, j);
+                ruutunappi.setPreferredSize(new Dimension(40, 40));
+                ruutunappi.addMouseListener(new RuutunappienKuuntelija(ruutunappi, this.ruudukko));
+                ruutunappi.setMargin(new Insets(0, 0, 0, 0));
+                this.add(ruutunappi, c);
+                this.ruutunapit[i][j] = ruutunappi;
             }
         }
         this.setBackground(Color.GRAY);
@@ -57,7 +58,7 @@ public class Pelikentta extends JPanel {
     /**
      * Metodi palauttaa pelikentän leveyden (ruutuina).
      *
-     * @return
+     * @return : Kentän leveys
      */
     public int getKentanLeveys() {
         return leveys;
@@ -66,10 +67,11 @@ public class Pelikentta extends JPanel {
     /**
      * Metodi palauttaa pelikentän korkeuden (ruutuina).
      *
-     * @return
+     * @return : Kentän korkeus
      */
     public int getKentanKorkeus() {
         return korkeus;
     }
+
 
 }
