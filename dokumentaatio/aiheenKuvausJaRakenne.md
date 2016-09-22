@@ -26,4 +26,4 @@ Näiden lisäksi on myös kustomoitu vaikeustaso, jossa pelikentän koon ja miin
 ![Määrittelyvaiheen luokkakaavio](/dokumentaatio/kuvat/viikon3TarkennettuLuokkakaavio.png)
 <br/>
 <br/>
-Yllä esitetty kuva vastaa ohjelman määrittelyvaiheen luokkakaaviota. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Käyttöliittymäluokka on tietysti olennainen osa peliä, mutta se on tästä huolimatta jätetty pois. Lisäksi kuvasta on jätetty pois luokat Paaohjelma ja ValikkoNappienKuuntelija.
+Yllä esitetty kuva vastaa ohjelman tarkennettua määrittelyvaiheen luokkakaaviota. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Käyttöliittymäluokka on tietysti olennainen osa peliä, mutta se on tästä huolimatta jätetty pois. Lisäksi kuvasta on jätetty pois luokat Paaohjelma ja ValikkoNappienKuuntelija.
