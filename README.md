@@ -10,3 +10,9 @@ Tämä repositorio sisältää Helsingin yliopiston Javalabra-kurssin suorittami
 Projektin työvaiheita ja niihin käytetyt ajat löytyvät linkin takaa. 
 
 [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
+
+Alla on eriteltynä muutamia projektin kannalta keskeisiä testaus- ja laaturaportteja.
+
+[Pit-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/pit/201609221651/index.html)
+
+[Checkstyle-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/checkstyle/checkstyle.html)
