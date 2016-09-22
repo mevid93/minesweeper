@@ -7,3 +7,4 @@ Päivä | Tunnit | Kuvaus
 15.09.2016 | 0.5h | Pit raportin luonti ja checkstyle
 16.09.2016 | 0.5h | Määrittelyvaiheen luokkakaavio
 21.09.2016 | 1.5h | sovelluslogiikan ohjelmointia (mm. RuutunapinKuuntelija) sekä käyttöliittymäluokkien muokkausta.
+22.09.2016 | 1.5h | Deadline 3:n vaatimien tehtävien tekeminen (pit-raportti, checkstyle, luokkakaavio...).
