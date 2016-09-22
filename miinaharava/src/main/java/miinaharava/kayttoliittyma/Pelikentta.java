@@ -7,7 +7,7 @@ import java.awt.GridBagLayout;
 import java.awt.Insets;
 import javax.swing.JPanel;
 import miinaharava.sovelluslogiikka.Ruudukko;
-import miinaharava.sovelluslogiikka.RuutunappienKuuntelija;
+import miinaharava.sovelluslogiikka.RuutunapinKuuntelija;
 
 /**
  *
@@ -46,7 +46,7 @@ public class Pelikentta extends JPanel {
                 c.gridx = j;
                 Ruutunappi ruutunappi = new Ruutunappi(i, j);
                 ruutunappi.setPreferredSize(new Dimension(40, 40));
-                ruutunappi.addMouseListener(new RuutunappienKuuntelija(ruutunappi, this.ruudukko));
+                ruutunappi.addMouseListener(new RuutunapinKuuntelija(ruutunappi, this.ruudukko));
                 ruutunappi.setMargin(new Insets(0, 0, 0, 0));
                 this.add(ruutunappi, c);
                 this.ruutunapit[i][j] = ruutunappi;

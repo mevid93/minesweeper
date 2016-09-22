@@ -9,12 +9,12 @@ import javax.swing.SwingUtilities;
  *
  * @author Martin Vidjeskog
  */
-public class RuutunappienKuuntelija implements MouseListener {
+public class RuutunapinKuuntelija implements MouseListener {
 
     private Ruutunappi ruutunappi;
     private Ruudukko ruudukko;
 
-    public RuutunappienKuuntelija(Ruutunappi ruutunappi, Ruudukko ruudukko) {
+    public RuutunapinKuuntelija(Ruutunappi ruutunappi, Ruudukko ruudukko) {
         this.ruutunappi = ruutunappi;
         this.ruudukko = ruudukko;
     }
