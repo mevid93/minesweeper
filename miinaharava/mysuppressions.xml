@@ -6,4 +6,6 @@
 
 <suppressions>
     <suppress files="Kayttoliittyma.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="AsetuksetDialogi.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="SaannotDialogi.java" checks="[a-zA-Z0-9]*"/>
 </suppressions>

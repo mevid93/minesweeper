@@ -13,6 +13,6 @@ Projektin työvaiheita ja niihin käytetyt ajat löytyvät linkin takaa.
 
 Alla on eriteltynä muutamia projektin kannalta keskeisiä testaus- ja laaturaportteja.
 
-[Pit-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/pit/201609221751/index.html)
+[Pit-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/pit/201609282201/index.html)
 
 [Checkstyle-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/checkstyle/checkstyle.html)

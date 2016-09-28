@@ -25,7 +25,7 @@ under the License.
     <language>en-us</language>
     <copyright>&#169;2016</copyright>
     <item>
-      <title>File: 8,
+      <title>File: 11,
              Errors: 0,
              Warnings: 0,
              Infos: 0
@@ -46,7 +46,7 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.RuutunapinKuuntelija.java">miinaharava/sovelluslogiikka/RuutunapinKuuntelija.java</a>
+                  <a href="${project.url}/checkstyle.html#miinaharava.domain.Ruudukko.java">miinaharava/domain/Ruudukko.java</a>
                 </td>
                 <td>
                   0
@@ -60,7 +60,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.Paaohjelma.java">miinaharava/sovelluslogiikka/Paaohjelma.java</a>
+                  <a href="${project.url}/checkstyle.html#miinaharava.domain.Ruutunappi.java">miinaharava/domain/Ruutunappi.java</a>
                 </td>
                 <td>
                   0
@@ -74,7 +74,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.Ruutu.java">miinaharava/sovelluslogiikka/Ruutu.java</a>
+                  <a href="${project.url}/checkstyle.html#miinaharava.kuuntelijat.ValikkonappienKuuntelija.java">miinaharava/kuuntelijat/ValikkonappienKuuntelija.java</a>
                 </td>
                 <td>
                   0
@@ -88,7 +88,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.ValikkonappienKuuntelija.java">miinaharava/sovelluslogiikka/ValikkonappienKuuntelija.java</a>
+                  <a href="${project.url}/checkstyle.html#miinaharava.domain.Ruutu.java">miinaharava/domain/Ruutu.java</a>
                 </td>
                 <td>
                   0
@@ -102,7 +102,49 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#miinaharava.sovelluslogiikka.Ruudukko.java">miinaharava/sovelluslogiikka/Ruudukko.java</a>
+                  <a href="${project.url}/checkstyle.html#miinaharava.kayttoliittyma.SaannotDialogi.java">miinaharava/kayttoliittyma/SaannotDialogi.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#miinaharava.domain.Pelikentta.java">miinaharava/domain/Pelikentta.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#miinaharava.kuuntelijat.RuutunapinKuuntelija.java">miinaharava/kuuntelijat/RuutunapinKuuntelija.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#miinaharava.kayttoliittyma.AsetuksetDialogi.java">miinaharava/kayttoliittyma/AsetuksetDialogi.java</a>
                 </td>
                 <td>
                   0
@@ -130,7 +172,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#miinaharava.kayttoliittyma.Pelikentta.java">miinaharava/kayttoliittyma/Pelikentta.java</a>
+                  <a href="${project.url}/checkstyle.html#miinaharava.kuuntelijat.AloitusnapinKuuntelija.java">miinaharava/kuuntelijat/AloitusnapinKuuntelija.java</a>
                 </td>
                 <td>
                   0
@@ -144,7 +186,7 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="${project.url}/checkstyle.html#miinaharava.kayttoliittyma.Ruutunappi.java">miinaharava/kayttoliittyma/Ruutunappi.java</a>
+                  <a href="${project.url}/checkstyle.html#miinaharava.Paaohjelma.java">miinaharava/Paaohjelma.java</a>
                 </td>
                 <td>
                   0
