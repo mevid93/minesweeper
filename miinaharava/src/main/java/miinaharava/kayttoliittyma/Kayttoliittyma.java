@@ -96,10 +96,10 @@ public class Kayttoliittyma implements Runnable {
         paneeli1.setPreferredSize(new Dimension(500, 50));
         container.add(paneeli1, BorderLayout.NORTH);
 
-        JButton nappi1 = new JButton("Aloita alusta");
-        nappi1.addActionListener(new AloitusnapinKuuntelija(this));
+        JButton aloitaNappi = new JButton("Aloita alusta");
+        aloitaNappi.addActionListener(new AloitusnapinKuuntelija(this));
         paneeli1.add(new JPanel());
-        paneeli1.add(nappi1);
+        paneeli1.add(aloitaNappi);
         paneeli1.add(new JPanel());
 
     }
@@ -109,7 +109,6 @@ public class Kayttoliittyma implements Runnable {
      */
     public void aloitaAlusta() {
         this.luoKomponentit(frame.getContentPane());
-        frame.invalidate();
         frame.revalidate();
         frame.repaint();
     }
