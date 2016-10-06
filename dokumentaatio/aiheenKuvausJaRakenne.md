@@ -19,10 +19,25 @@ Näiden lisäksi on myös kustomoitu vaikeustaso, jossa pelikentän koon ja miin
 - uuden pelin aloittaminen (pelikentän yläpuolella sijaitsevasta napista)
 - ruudun klikkaaminen hiiren vasemmalla painikkeella (ruudun avaaminen)
 - ruudun klikkaaminen hiiren oikealla painikkeella (ruudun liputtaminen tai lipun poisto ruudusta)
+** **
 <br/>
 <br/>
 <br/>
-![Määrittelyvaiheen luokkakaavio](/dokumentaatio/kuvat/viikon5Luokkakaavio.png)
+![Luokkakaavio](/dokumentaatio/kuvat/viikon5Luokkakaavio.png)
 <br/>
 <br/>
-Yllä esitetty kuva vastaa ohjelman tarkennettua määrittelyvaiheen luokkakaaviota. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Käyttöliittymäluokat ovat tietysti olennainen osa peliä, mutta ne on tästä huolimatta jätetty pois. Lisäksi kuvasta on jätetty pois luokat Paaohjelma ja ValikkoNappienKuuntelija.
+Yllä esitetty kuva vastaa ohjelman tarkennettua määrittelyvaiheen luokkakaaviota. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Käyttöliittymäluokat ovat tietysti olennainen osa peliä, mutta ne on tästä huolimatta jätetty pois. Lisäksi kuvasta on jätetty pois luokat Paaohjelma ja ValikkoNappienKuuntelija ja AloitusnapinKuuntelija.
+<br/>
+<br/>
+<br/>
+![Liputuksen vaihto sekvenssikaaviona](/dokumentaatio/kuvat/sekvenssikaavioLiputus.png)
+<br/>
+<br/>
+<br/>
+![Alusta aloittaminen sekvenssikaaviona](/dokumentaatio/kuvat/sekvenssikaavioAloitus.png)
+<br/>
+<br/>
+Sekvenssikaaviossa, joka kuvaa pelin aloittamista alusta (alempi), on tärkeää huomata että uusien olioiden 
+luominen korvaa aiemmat samannimiset oliot.
+<br/>
+<br/>
