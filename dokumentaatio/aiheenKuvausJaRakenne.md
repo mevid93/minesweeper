@@ -16,14 +16,13 @@ Näiden lisäksi on myös kustomoitu vaikeustaso, jossa pelikentän koon ja miin
 
 **Ohjelman käyttäjän toiminnot**: 
 - asetusten määrittäminen (pelikentän koon valitseminen)
-- uuden pelin aloittaminen (sekä asetusvalikosta, että pelikentän yläpuolella sijaitsevasta napista)
-- pelikentän zoomaus (ominaisuus joka lisätään jos aikaa jää)
-- ruudun klikkaaminen hiiren vasemmalla painikkeella (mikäli pelaajan mielestä ruudussa ei ole miinaa)
-- miinan sijainnin merkitseminen hiiren oikealla painikkeella (mikäli pelaajan mielestä ruudussa on miina)
+- uuden pelin aloittaminen (pelikentän yläpuolella sijaitsevasta napista)
+- ruudun klikkaaminen hiiren vasemmalla painikkeella (ruudun avaaminen)
+- ruudun klikkaaminen hiiren oikealla painikkeella (ruudun liputtaminen tai lipun poisto ruudusta)
 <br/>
 <br/>
 <br/>
 ![Määrittelyvaiheen luokkakaavio](/dokumentaatio/kuvat/viikon3TarkennettuLuokkakaavio.png)
 <br/>
 <br/>
-Yllä esitetty kuva vastaa ohjelman tarkennettua määrittelyvaiheen luokkakaaviota. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Käyttöliittymäluokka on tietysti olennainen osa peliä, mutta se on tästä huolimatta jätetty pois. Lisäksi kuvasta on jätetty pois luokat Paaohjelma ja ValikkoNappienKuuntelija.
+Yllä esitetty kuva vastaa ohjelman tarkennettua määrittelyvaiheen luokkakaaviota. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Käyttöliittymäluokat ovat tietysti olennainen osa peliä, mutta ne on tästä huolimatta jätetty pois. Lisäksi kuvasta on jätetty pois luokat Paaohjelma ja ValikkoNappienKuuntelija.
