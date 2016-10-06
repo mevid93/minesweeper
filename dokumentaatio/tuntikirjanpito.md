@@ -11,3 +11,6 @@ Päivä | Tunnit | Kuvaus
 26.09.2016 | 2.0h | Käyttöliittymän ohjelmointia. Graafinen säännöt-ikkuna.
 27.09.2016 | 2.5h | Käyttöliittymän ohjelmointia. Graafinen asetusvalikko-ikkuna.
 28.09.2016 | 3.0h | Tesiten kirjoittelua, pakkausrakenteen muokkausta, Javadocin kirjoittelua...
+03.10.2016 | 0.5h | Rekursiivinen algoritmi ruutunappien avaamista varten.
+05.10.2016 | 2.0h | RuutunappienKuuntelijan muokkaamista, sekvenssikaavioiden suunnittelua ja kuvien lisäys ruutunappeihin.
+28.09.2016 | 1.5h | Tesiten kirjoittelua, Pelikenttä-luokan muokkaamista ja Deadline 4 tehtävät.

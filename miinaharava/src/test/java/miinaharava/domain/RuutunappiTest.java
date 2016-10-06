@@ -1,21 +1,12 @@
 package miinaharava.domain;
 
-import miinaharava.domain.Ruutunappi;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-/**
- * Luokka, joka testaa Ruutunappi-luokan toimintaa.
- *
- * @author Martin Vidjeskog
- */
 public class RuutunappiTest {
 
-    /**
-     * Metodi, joka testaa, että konstruktori toimii normaaleilla arvoilla.
-     */
     @Test
     public void konstruktoriToimii() {
         Ruutunappi ruutu = new Ruutunappi(10, 10);
@@ -23,46 +14,34 @@ public class RuutunappiTest {
         assertEquals(10, ruutu.getyKoordinaatti());
     }
 
-    /**
-     * Metodi, joka testaa, että naytaMiina()-metodi toimii.
-     */
     @Test
     public void naytaMiinaToimii() {
         Ruutunappi ruutu = new Ruutunappi(10, 10);
-        assertEquals("", ruutu.getText());
+        assertEquals(null, ruutu.getIcon());
         ruutu.naytaMiina();
-        assertEquals("X", ruutu.getText());
+        assertTrue(ruutu.getIcon().toString().contains("miina.png"));
     }
 
-    /**
-     * Metodi, joka testaa, että naytaNappurimiinojenMaara-metodi toimii.
-     */
     @Test
     public void naytaNaapurimiinojenMaara() {
         Ruutunappi ruutu = new Ruutunappi(10, 10);
-        assertEquals("", ruutu.getText());
+        assertEquals(null, ruutu.getIcon());
         ruutu.naytanaapurimiinojenMaara(0);
-        assertEquals("", ruutu.getText());
+        assertEquals(null, ruutu.getIcon());
         ruutu.naytanaapurimiinojenMaara(1);
-        assertEquals("1", ruutu.getText());
+        assertTrue(ruutu.getIcon().toString().contains("numero1.png"));
     }
 
-    /**
-     * Metodi, joka testaa, että naytaLippu-metodi toimii.
-     */
     @Test
     public void naytaLippuToimii() {
         Ruutunappi ruutu = new Ruutunappi(10, 10);
-        assertEquals("", ruutu.getText());
+        assertEquals(null, ruutu.getIcon());
         ruutu.naytaLippu(true);
-        assertEquals("L", ruutu.getText());
+        assertTrue(ruutu.getIcon().toString().contains("lippu.png"));
         ruutu.naytaLippu(false);
-        assertEquals("", ruutu.getText());
+        assertEquals(null, ruutu.getIcon());
     }
 
-    /**
-     * Metodi, joka testaa, että muutaPainetuksi-metodi toimii.
-     */
     @Test
     public void muutaPainetuksiToimii() {
         Ruutunappi ruutu = new Ruutunappi(10, 10);

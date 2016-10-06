@@ -1,15 +1,10 @@
 package miinaharava.domain;
 
-import miinaharava.domain.Ruutu;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- *
- * @author Martin Vidjeskog
- */
 public class RuutuTest {
 
     Ruutu ruutu;

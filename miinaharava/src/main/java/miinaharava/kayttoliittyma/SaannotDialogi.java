@@ -28,8 +28,8 @@ public class SaannotDialogi extends javax.swing.JDialog {
     }
 
     /**
-     * Metodi, joka asettelee dialogin graafisen ulkomuodon ja 
-     * komponenttien ominaisuudet.
+     * Metodi, joka asettelee dialogin graafisen ulkomuodon ja komponenttien
+     * ominaisuudet.
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents

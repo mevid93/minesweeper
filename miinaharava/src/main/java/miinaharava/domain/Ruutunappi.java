@@ -2,6 +2,7 @@ package miinaharava.domain;
 
 import java.awt.Color;
 import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
 /**
@@ -52,7 +53,9 @@ public class Ruutunappi extends JButton {
      */
     public void naytaMiina() {
         this.muutaPainetuksi();
-        this.setText("X");
+        ImageIcon miina = new ImageIcon(getClass().getResource("/miina.png"));
+        this.setIcon(miina);
+        this.setDisabledIcon(miina);
     }
 
     /**
@@ -64,27 +67,30 @@ public class Ruutunappi extends JButton {
     public void naytanaapurimiinojenMaara(int naapurimiinat) {
         this.muutaPainetuksi();
         if (naapurimiinat != 0) {
-            this.setText("" + naapurimiinat);
+            ImageIcon vihje = new ImageIcon(getClass().getResource("/numero" + naapurimiinat + ".png"));
+            this.setIcon(vihje);
+            this.setDisabledIcon(vihje);
         }
     }
 
     /**
-     * Metodi, joka muuttaa ruutunapin ulkonäköä vastaamaan ruutua, jossa
-     * joko on lippu tai ei ole lippua, riippuen parametrin arvosta.
-     * 
-     * @param esilla Merkitäänkö lippu esille 
+     * Metodi, joka muuttaa ruutunapin ulkonäköä vastaamaan ruutua, jossa joko
+     * on lippu tai ei ole lippua, riippuen parametrin arvosta.
+     *
+     * @param esilla Merkitäänkö lippu esille
      */
     public void naytaLippu(boolean esilla) {
         if (esilla) {
-            this.setText("L");
+            ImageIcon lippu = new ImageIcon(getClass().getResource("/lippu.png"));
+            this.setIcon(lippu);
         } else {
-            this.setText("");
+            this.setIcon(null);
         }
+        this.validate();
     }
 
     /**
-     * Meotodi, jolla napin tausta muutetaan vastaamaan avatun 
-     * ruudun ulkonäköä.
+     * Meotodi, jolla napin tausta muutetaan vastaamaan avatun ruudun ulkonäköä.
      */
     private void muutaPainetuksi() {
         this.setBorder(BorderFactory.createLoweredBevelBorder());
