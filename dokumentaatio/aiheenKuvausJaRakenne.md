@@ -18,8 +18,7 @@ Näiden lisäksi on myös kustomoitu vaikeustaso, jossa pelikentän koon ja miin
 - asetusten määrittäminen (pelikentän koon valitseminen)
 - uuden pelin aloittaminen (pelikentän yläpuolella sijaitsevasta napista)
 - ruudun klikkaaminen hiiren vasemmalla painikkeella (ruudun avaaminen)
-- ruudun klikkaaminen hiiren oikealla painikkeella (ruudun liputtaminen tai lipun poisto ruudusta)
-** **
+- ruudun klikkaaminen hiiren oikealla painikkeella (ruudun liputtaminen tai lipun poisto ruudusta).
 <br/>
 <br/>
 <br/>
@@ -28,6 +27,9 @@ Näiden lisäksi on myös kustomoitu vaikeustaso, jossa pelikentän koon ja miin
 <br/>
 Yllä esitetty kuva vastaa ohjelman tarkennettua määrittelyvaiheen luokkakaaviota. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Käyttöliittymäluokat ovat tietysti olennainen osa peliä, mutta ne on tästä huolimatta jätetty pois. Lisäksi kuvasta on jätetty pois luokat Paaohjelma ja ValikkoNappienKuuntelija ja AloitusnapinKuuntelija.
 <br/>
+<br/>
+<br/>
+**Ohjelman käyttötapauksia sekvenssikaavioina**:
 <br/>
 <br/>
 ![Liputuksen vaihto sekvenssikaaviona](/dokumentaatio/kuvat/sekvenssikaavioLiputus.png)
