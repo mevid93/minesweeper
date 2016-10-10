@@ -1,5 +1,6 @@
 package miinaharava;
 
+import javax.swing.SwingUtilities;
 import miinaharava.kayttoliittyma.Kayttoliittyma;
 
 /**
@@ -16,10 +17,7 @@ public class Paaohjelma {
      * @param args Konsolin kautta syötetyt parametrit
      */
     public static void main(String[] args) {
-
-        Kayttoliittyma ikkuna = new Kayttoliittyma();
-        ikkuna.run();
-
+        SwingUtilities.invokeLater(new Kayttoliittyma());
     }
 
 }

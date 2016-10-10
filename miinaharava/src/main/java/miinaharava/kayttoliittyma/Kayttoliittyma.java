@@ -15,6 +15,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
 import javax.swing.JSeparator;
+import javax.swing.UIManager;
 import javax.swing.WindowConstants;
 import miinaharava.domain.Ruudukko;
 
@@ -27,7 +28,7 @@ import miinaharava.domain.Ruudukko;
  * @author Martin Vidjeskog
  */
 public class Kayttoliittyma implements Runnable {
-
+    
     private JFrame frame;   // käyttöliittyman ikkunan kehys
     private int leveys;     // pelikentän leveys
     private int korkeus;    // pelikentän korkeus
@@ -49,11 +50,17 @@ public class Kayttoliittyma implements Runnable {
      */
     @Override
     public void run() {
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception e) {
+            //Ei tehdä mitään. Käytetään default LookAndFeel.
+        }        
+        
         frame = new JFrame("Miinaharava");
         frame.setPreferredSize(new Dimension((this.leveys + 1) * 40, (this.korkeus + 1) * 40 + 100));
         frame.setResizable(false);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
+        
         JMenuBar menuBar = new JMenuBar();
         JMenu peliMenu = new JMenu("Peli");
         JMenuItem asetukset = new JMenuItem("Asetukset");
@@ -70,9 +77,9 @@ public class Kayttoliittyma implements Runnable {
         menuBar.add(peliMenu);
         menuBar.add(ohjeMenu);
         frame.setJMenuBar(menuBar);
-
+        
         luoKomponentit(frame.getContentPane());
-
+        
         frame.pack();
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
@@ -86,22 +93,22 @@ public class Kayttoliittyma implements Runnable {
     private void luoKomponentit(Container container) {
         container.removeAll();
         container.setLayout(new BorderLayout());
-
+        
         Ruudukko ruudukko = new Ruudukko(this.leveys, this.korkeus, this.miinat);
         Pelikentta kentta = new Pelikentta(ruudukko);
         container.add(kentta);
-
+        
         JPanel paneeli1 = new JPanel(new GridLayout(1, 3));
         paneeli1.setBackground(Color.red);
         paneeli1.setPreferredSize(new Dimension(500, 50));
         container.add(paneeli1, BorderLayout.NORTH);
-
+        
         JButton aloitaNappi = new JButton("Aloita alusta");
         aloitaNappi.addActionListener(new AloitusnapinKuuntelija(this));
         paneeli1.add(new JPanel());
         paneeli1.add(aloitaNappi);
         paneeli1.add(new JPanel());
-
+        
     }
 
     /**
@@ -133,12 +140,12 @@ public class Kayttoliittyma implements Runnable {
         this.leveys = leveys;
         this.korkeus = korkeus;
         this.miinat = miinat;
-        this.luoKomponentit(frame.getContentPane());
         frame.setSize(new Dimension((this.leveys + 1) * 40, (this.korkeus + 1) * 40 + 100));
+        this.luoKomponentit(frame.getContentPane());
         frame.setLocationRelativeTo(null);
         frame.invalidate();
         frame.revalidate();
         frame.repaint();
     }
-
+    
 }

@@ -4,6 +4,7 @@ import java.awt.Color;
 import miinaharava.domain.Ruutunappi;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 import miinaharava.domain.Pelikentta;
 import miinaharava.domain.Ruudukko;
@@ -109,6 +110,7 @@ public class RuutunapinKuuntelija implements MouseListener {
         this.ruutunappi.setBackground(Color.red);
         this.kentta.paljastaKaikkiMiinat();
         this.merkitseAvatuiksi();
+        JOptionPane.showMessageDialog(null, "Hävisit");
     }
 
     /**
@@ -129,14 +131,26 @@ public class RuutunapinKuuntelija implements MouseListener {
                 if (x + 1 < this.ruudukko.getLeveys() && !this.ruudukko.onkoAvattu(x + 1, y)) {
                     avaaRuutuJossaEiMiinaa(x + 1, y);
                 }
-                if (x - 1 >= 0 && !this.ruudukko.onkoAvattu(x - 1, y)) {
-                    avaaRuutuJossaEiMiinaa(x - 1, y);
+                if (x + 1 < this.ruudukko.getLeveys() && y + 1 < this.ruudukko.getKorkeus() && !this.ruudukko.onkoAvattu(x + 1, y + 1)) {
+                    avaaRuutuJossaEiMiinaa(x + 1, y + 1);
                 }
                 if (y + 1 < this.ruudukko.getKorkeus() && !this.ruudukko.onkoAvattu(x, y + 1)) {
                     avaaRuutuJossaEiMiinaa(x, y + 1);
                 }
+                if (x - 1 >= 0 && y + 1 < this.ruudukko.getKorkeus() && !this.ruudukko.onkoAvattu(x - 1, y + 1)) {
+                    avaaRuutuJossaEiMiinaa(x - 1, y + 1);
+                }
+                if (x - 1 >= 0 && !this.ruudukko.onkoAvattu(x - 1, y)) {
+                    avaaRuutuJossaEiMiinaa(x - 1, y);
+                }
+                if (x - 1 >= 0 && y - 1 >= 0 && !this.ruudukko.onkoAvattu(x - 1, y - 1)) {
+                    avaaRuutuJossaEiMiinaa(x - 1, y - 1);
+                }
                 if (y - 1 >= 0 && !this.ruudukko.onkoAvattu(x, y - 1)) {
                     avaaRuutuJossaEiMiinaa(x, y - 1);
+                }
+                if (x + 1 < this.ruudukko.getLeveys() && y - 1 >= 0 && !this.ruudukko.onkoAvattu(x + 1, y - 1)) {
+                    avaaRuutuJossaEiMiinaa(x + 1, y - 1);
                 }
             }
         }
@@ -157,6 +171,7 @@ public class RuutunapinKuuntelija implements MouseListener {
             }
         }
         this.merkitseAvatuiksi();
+        JOptionPane.showMessageDialog(null, "Voitit");
     }
 
     @Override
