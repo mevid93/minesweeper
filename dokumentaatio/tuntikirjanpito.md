@@ -13,4 +13,5 @@ Päivä | Tunnit | Kuvaus
 28.09.2016 | 3.0h | Tesiten kirjoittelua, pakkausrakenteen muokkausta, Javadocin kirjoittelua...
 03.10.2016 | 0.5h | Rekursiivinen algoritmi ruutunappien avaamista varten.
 05.10.2016 | 2.0h | RuutunappienKuuntelijan muokkaamista, sekvenssikaavioiden suunnittelua ja kuvien lisäys ruutunappeihin.
-28.09.2016 | 1.5h | Tesiten kirjoittelua, Pelikenttä-luokan muokkaamista ja Deadline 4 tehtävät.
+10.10.2016 | 0.5h | Bugikorjauksia rekursiiviseen algoritmiin ja kentän koon vaihtamiseen. Pelin päättymiseen liittyvät ilmoitukset lisätty.
+12.10.2016 | 2.0h | Deadline 6 tehtävät. Rakennekuvaus käyttöohjeet ja jar-tiedosto.
