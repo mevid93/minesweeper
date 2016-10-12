@@ -8,6 +8,9 @@ Tämä repositorio sisältää Helsingin yliopiston Javalabra-kurssin suorittami
 - [Projektin aiheen tarkempi kuvaus](dokumentaatio/aiheenKuvausJaRakenne.md)
 <br />
 <br />
+- [Ohjelman käyttöohjeet](dokumentaatio/ohjeet.md)
+<br />
+<br />
 - [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
 <br />
 <br />
