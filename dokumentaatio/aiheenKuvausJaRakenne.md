@@ -19,13 +19,22 @@ Näiden lisäksi on myös kustomoitu vaikeustaso, jossa pelikentän koon ja miin
 - uuden pelin aloittaminen (pelikentän yläpuolella sijaitsevasta napista)
 - ruudun klikkaaminen hiiren vasemmalla painikkeella (ruudun avaaminen)
 - ruudun klikkaaminen hiiren oikealla painikkeella (ruudun liputtaminen tai lipun poisto ruudusta).
-<br/>
-<br/>
-<br/>
+   
+** **
+
+**Luokkakaavio ja ohjelman rakenne**
+
 ![Luokkakaavio](/dokumentaatio/kuvat/viikon5Luokkakaavio.png)
 <br/>
 <br/>
 Yllä esitetty kuva vastaa ohjelman tarkennettua määrittelyvaiheen luokkakaaviota. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Käyttöliittymäluokat ovat tietysti olennainen osa peliä, mutta ne on tästä huolimatta jätetty pois. Lisäksi kuvasta on jätetty pois luokat Paaohjelma ja ValikkoNappienKuuntelija ja AloitusnapinKuuntelija.
+Ohjelman toteutus jaettu pääasiassa kolmeen osaan, jotka ovat kuuntelijaluokat, käyttöliittymäluokat ja perusluokat.
+Käyttöliittymäluokat sisältävät tiedon siitä millainen ohjelman näkymä käyttäjälle tulee olla.
+Kuuntelijaluokat sisältävät logiikan sille mitä tulee tehdä, kun käyttöliittymäluokan komponentteja painellaan.
+Perusluokat ovat luokkakaaviossa esitettyjä luokkia. Ne ovat ovat ohjelman logiikan kannalta oleellisisa, sillä ne 
+pitävät muun muassa tietoa siitä mitä pelikentällä tapahtuu ja niiden avulla kuuntelijaluokat voivat määrittää mitä 
+milloinkin tulee tehdä.
+** **
 <br/>
 <br/>
 <br/>
