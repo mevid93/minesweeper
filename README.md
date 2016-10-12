@@ -14,7 +14,7 @@ Tämä repositorio sisältää Helsingin yliopiston Javalabra-kurssin suorittami
 - [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
 <br />
 <br />
-- [Pit-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/pit/201610060948/index.html)
+- [Pit-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/pit/201610121802/index.html)
 <br />
 <br />
 - [Checkstyle-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/checkstyle/checkstyle.html)
