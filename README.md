@@ -5,10 +5,13 @@ Tämä repositorio sisältää Helsingin yliopiston Javalabra-kurssin suorittami
 <br />
 
 ### Dokumentaatio
-[Projektin aiheen tarkempi kuvaus](dokumentaatio/aiheenKuvausJaRakenne.md)
+- [Projektin aiheen tarkempi kuvaus](dokumentaatio/aiheenKuvausJaRakenne.md)
 <br />
-[Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
 <br />
-[Pit-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/pit/201610060948/index.html)
+- [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
 <br />
-[Checkstyle-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/checkstyle/checkstyle.html)
+<br />
+- [Pit-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/pit/201610060948/index.html)
+<br />
+<br />
+- [Checkstyle-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/checkstyle/checkstyle.html)
