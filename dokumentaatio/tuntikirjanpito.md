@@ -15,4 +15,4 @@ Päivä | Tunnit | Kuvaus
 05.10.2016 | 2.0h | RuutunappienKuuntelijan muokkaamista, sekvenssikaavioiden suunnittelua ja kuvien lisäys ruutunappeihin.
 10.10.2016 | 0.5h | Bugikorjauksia rekursiiviseen algoritmiin ja kentän koon vaihtamiseen. Pelin päättymiseen liittyvät ilmoitukset lisätty.
 12.10.2016 | 2.0h | Deadline 6 tehtävät. Rakennekuvaus käyttöohjeet ja jar-tiedosto.
-13.10.2016 | 2.0h | Luokkakaavion päivitys
+13.10.2016 | 0.5h | Luokkakaavion päivitys
