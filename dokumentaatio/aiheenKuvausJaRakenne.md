@@ -24,7 +24,7 @@ Näiden lisäksi on myös kustomoitu vaikeustaso, jossa pelikentän koon ja miin
 
 **Luokkakaavio ja ohjelman rakenne**
 
-![Luokkakaavio](/dokumentaatio/kuvat/viikon5Luokkakaavio.png)
+![Luokkakaavio](/dokumentaatio/kuvat/viikon6Luokkakaavio.png)
 <br/>
 <br/>
 Yllä esitetty kuva vastaa ohjelman tarkennettua määrittelyvaiheen luokkakaaviota. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Käyttöliittymäluokat ovat tietysti olennainen osa peliä, mutta ne on tästä huolimatta jätetty pois. Lisäksi kuvasta on jätetty pois luokat Paaohjelma ja ValikkoNappienKuuntelija ja AloitusnapinKuuntelija.
