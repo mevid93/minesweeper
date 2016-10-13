@@ -28,9 +28,12 @@ Näiden lisäksi on myös kustomoitu vaikeustaso, jossa pelikentän koon ja miin
 <br/>
 <br/>
 Yllä on esiteltynä ohjelman luokkakaavio. Kuvassa on esitetty ohjelman kannalta oleellisimmat luokat. Kaikkia Käyttöliittymäkomponenttien luokkia ei ole yksinkertaistuksen vuoksi kaavioon sisällytetty.
+
 Ohjelman toteutus jaettu pääasiassa kolmeen osaan, jotka ovat kuuntelijaluokat, käyttöliittymäluokat ja perusluokat.
 Käyttöliittymäluokat sisältävät tiedon siitä millainen ohjelman näkymä käyttäjälle tulee olla. Käyttöliittymäluokkia ovat Kayttoliittyma.java, AsetuksetDialogi.java ja SaannotDialogi.java.
+
 Kuuntelijaluokat sisältävät logiikan sille mitä tulee tehdä, kun käyttöliittymäluokan komponentteja painellaan. Kuuntelijaluokkia ovat AloitusnapinKuuntelija.java, RuutunapinKuuntelija.java ja ValikkonappienKuuntelija.java.
+
 Perusluokat ovat ovat ovat ohjelman logiikan kannalta oleellisia. Ne pitävät muun muassa tietoa siitä mitä pelikentällä tapahtuu ja niiden avulla kuuntelijaluokat voivat määrittää mitä milloinkin tulee tehdä. Näitä "perusluokkia" ovat Pelikentta.java, Ruudukko.java, Ruutu.java ja Ruutunappi.java.
 ** **
 <br/>
