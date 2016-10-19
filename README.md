@@ -17,7 +17,10 @@ Tämä repositorio sisältää Helsingin yliopiston Javalabra-kurssin suorittami
 - [Testausdokumentaatio](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/testausdokumentaatio.md)
 <br />
 <br />
-- [Pit-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/pit/201610131856/index.html)
+- [Pit-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/pit/201610191545/index.html)
 <br />
 <br />
 - [Checkstyle-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/checkstyle/checkstyle.html)
+<br />
+<br />
+- [Javadoc](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/apidocs/index.html)
