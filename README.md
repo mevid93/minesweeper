@@ -1,26 +1,6 @@
 ﻿# MiinaharavaKlooni
  
-Tämä repositorio sisältää Helsingin yliopiston Javalabra-kurssin suorittamiseksi vaadittavan projektityön lähdekoodin ja dokumentaation. Projektityön aiheena on miinaharava-peli. Miinaharavassa on tarkoitus tyjentää pelilauta välttäen siihen piilotettuja miinoja merkitsemällä ne lipuilla. 
-<br />
-<br />
+Tämä repositorio sisältää Helsingin yliopiston Javalabra-kurssin suorittamiseksi vaaditun projektityön lähdekoodin ja dokumentaation. Projektityön aiheena oli ohjelmoida Miinaharava peli. Miinaharavassa on tarkoitus tyjentää pelilauta välttäen siihen piilotettuja miinoja merkitsemällä ne lipuilla. 
 
-### Dokumentaatio
-- [Projektin aiheen tarkempi kuvaus](dokumentaatio/aiheenKuvausJaRakenne.md)
-<br />
-<br />
-- [Ohjelman käyttöohjeet](dokumentaatio/ohjeet.md)
-<br />
-<br />
-- [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
-<br />
-<br />
-- [Testausdokumentaatio](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/testausdokumentaatio.md)
-<br />
-<br />
-- [Pit-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/pit/201610191545/index.html)
-<br />
-<br />
-- [Checkstyle-raportti](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/checkstyle/checkstyle.html)
-<br />
-<br />
-- [Javadoc](https://htmlpreview.github.io/?https://github.com/mevid93/MiinaharavaKlooni/blob/master/dokumentaatio/apidocs/index.html)
+![Screenshot](doc/kuvat/snapshot.png)
+
