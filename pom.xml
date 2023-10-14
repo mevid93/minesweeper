@@ -1,0 +1,7 @@
+    <project>
+      <modelVersion>4.0.0</modelVersion>
+     
+      <groupId>mevid93</groupId>
+      <artifactId>minesweeper</artifactId>
+      <version>1</version>
+    </project>

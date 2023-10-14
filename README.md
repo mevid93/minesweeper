@@ -1,6 +1,6 @@
-﻿# Miinaharava
+﻿# Minesweeper
  
 Java programming course project.
 
-![Screenshot](doc/kuvat/snapshot.png)
+![Screenshot](doc/snapshot.png)
 
