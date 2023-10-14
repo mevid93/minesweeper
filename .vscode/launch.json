@@ -9,7 +9,7 @@
       "name": "Main",
       "request": "launch",
       "mainClass": "minesweeper.Main",
-      "projectName": "minesweeper_c619bdfe"
+      "projectName": "minesweeper"
     },
   ]
 }

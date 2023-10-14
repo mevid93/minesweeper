@@ -83,7 +83,7 @@ public class Window implements Runnable {
     frame.setLocationRelativeTo(null);
     frame.setVisible(true);
 
-    this.frame.setIconImage(new ImageIcon(Myclass.class.getResource("/mine.png")).getImage());
+    this.frame.setIconImage(new ImageIcon(this.getClass().getResource("/mine.png")).getImage());
   }
 
   private void initializeComponents(Container container) {
