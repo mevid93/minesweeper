@@ -1,6 +1,6 @@
 ﻿# Minesweeper
  
-Java programming course project.
+Java minesweeper clone.
 
 ![Screenshot](doc/snapshot.png)
 
